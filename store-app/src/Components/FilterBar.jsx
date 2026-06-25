@@ -22,7 +22,8 @@ const FilterBar = ({ categories, selectedCategory, onCategoryChange, onSearch, s
               ? "bg-blue-500 text-white border-blue-500"
               : "bg-gray-700 text-gray-300 border-gray-400 hover:border-blue-500"
           }`}
-          onClick={() => onCategoryChange("all")}
+          onClick={() => onCategoryChange("all")} 
+          
         >
           All Products
         </button>
